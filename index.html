@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Farewell to Ask.com | 25 Years of Curiosity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc;
+            color: #1a1a1a;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in forwards;
+            opacity: 0;
+        }
+
+        .delay-1 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.9s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col bg-[#fcfcfc]">
+
+    <!-- Classy Ask.com Brand Banner -->
+    <header class="w-full bg-[#C8102E] text-white shadow-md fade-in">
+        <div class="w-full max-w-5xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center gap-4">
+                <!-- Classic Q&A Speech Bubble -->
+                <svg class="w-12 h-12 text-white fill-current opacity-90" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 2C6.48 2 2 5.92 2 10.75c0 2.8 1.5 5.28 3.82 6.88L5 22l4.13-2.28c.92.27 1.9.43 2.87.43 5.52 0 10-3.92 10-8.75S17.52 2 12 2z" />
+                </svg>
+                <div class="text-5xl font-bold tracking-tighter serif">Ask<span
+                        class="opacity-80 font-medium text-4xl">.com</span></div>
+            </div>
+            <div
+                class="mt-6 md:mt-0 text-sm font-medium text-white/80 tracking-widest uppercase flex flex-col md:items-end items-center">
+                <span>An IAC Company</span>
+                <span class="text-xs opacity-75 mt-1">1996 &mdash; 2026</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full max-w-3xl mx-auto px-6 pb-24 flex-grow">
+
+        <!-- The Headline -->
+        <section class="mt-12 mb-20 fade-in delay-1">
+            <p class="text-sm uppercase tracking-widest text-red-700 font-semibold mb-4">Official Announcement</p>
+            <h1 class="text-5xl md:text-6xl font-semibold leading-tight text-gray-900 mb-6">
+                Every great search <br />must come to an end.
+            </h1>
+            <p class="text-xl text-gray-600 font-light leading-relaxed">
+                After 25 years of answering the world's questions, Ask.com officially closed its doors on <strong
+                    class="font-medium text-gray-900">May 1, 2026</strong>.
+            </p>
+        </section>
+
+        <!-- The "Why" -->
+        <section class="mb-16 fade-in delay-2">
+            <h2 class="text-2xl serif text-gray-900 mb-4 border-b border-gray-200 pb-2">The Catalyst</h2>
+            <p class="text-gray-700 leading-relaxed mb-6 font-light">
+                For a quarter of a century, we thrived on your curiosity. But the digital ecosystem is a living,
+                breathing landscape. Over the years, how humanity seeks information has fundamentally transformed. The
+                mechanics of discovery have grown infinitely more complex, and user behaviors have shifted toward new
+                horizons.
+            </p>
+            <p class="text-gray-700 leading-relaxed font-light">
+                As IAC continues to sharpen its overarching focus, we realized that maintaining a legacy search engine
+                was no longer the best way to serve the future. It is a decision made not out of defeat, but out of a
+                desire for clarity and forward momentum.
+            </p>
+        </section>
+
+        <!-- The Vision -->
+        <section class="mb-16 fade-in delay-2 bg-gray-50 p-8 rounded-2xl">
+            <h2 class="text-2xl serif text-gray-900 mb-6">The Next Chapter</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xs uppercase tracking-widest text-gray-500 mb-2 font-semibold">Where We Were</h3>
+                    <p class="text-gray-800 font-light text-sm leading-relaxed">
+                        Serving as the internet's original, character-driven question-and-answer search engine,
+                        organizing the web's knowledge for everyday queries.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xs uppercase tracking-widest text-gray-500 mb-2 font-semibold">Where We Are Going
+                    </h3>
+                    <p class="text-gray-800 font-light text-sm leading-relaxed">
+                        Sharpening IAC’s strategic focus to build, nurture, and scale the next generation of pioneering,
+                        category-defining digital brands.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ask Media Group Brands Logo Garden -->
+            <div class="mt-12 pt-10 border-t border-gray-200">
+                <p class="text-xs text-center uppercase tracking-widest text-gray-400 mb-8 font-medium">The Ask Media
+                    Group Portfolio</p>
+                <div
+                    class="flex flex-wrap justify-center items-center gap-x-10 gap-y-8 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+
+                    <!-- Reference -->
+                    <div
+                        class="flex items-center text-2xl font-bold font-sans tracking-tight text-gray-900 select-none">
+                        <span class="text-blue-600 mr-1 text-3xl leading-none">R</span>eference<span
+                            class="text-blue-600">.com</span>
+                    </div>
+
+                    <!-- ConsumerSearch -->
+                    <div class="text-2xl font-normal font-sans tracking-tight text-gray-800 select-none">
+                        Consumer<span class="font-bold text-gray-900">Search</span>
+                    </div>
+
+                    <!-- SymptomFind -->
+                    <div
+                        class="flex items-center text-2xl font-semibold font-sans tracking-tight text-gray-800 select-none">
+                        Symptom<span class="text-teal-600">Find</span>
+                    </div>
+
+                    <!-- AskMoney -->
+                    <div class="text-2xl font-bold font-sans tracking-tighter text-gray-900 select-none">
+                        Ask<span class="font-light text-green-700">Money</span>
+                    </div>
+
+                    <!-- Shopping.net -->
+                    <div class="text-2xl font-medium font-sans tracking-tight text-gray-700 select-none">
+                        shopping<span class="text-orange-500 font-bold">.net</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- The Logistics (Compliance) -->
+        <section class="mb-16 fade-in delay-3">
+            <h2 class="text-2xl serif text-gray-900 mb-4 border-b border-gray-200 pb-2">What This Means for You</h2>
+            <p class="text-gray-700 leading-relaxed mb-8 font-light">
+                Transparency and respect for your digital footprint are our top priorities during this transition.
+                Please review the logistical steps we have taken effective May 1, 2026:
+            </p>
+
+            <div class="space-y-6">
+                <div class="flex items-start">
+                    <div
+                        class="flex-shrink-0 h-6 w-6 rounded-full border border-gray-300 flex items-center justify-center mt-0.5">
+                        <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="text-gray-900 font-medium">Service Discontinuation</h4>
+                        <p class="text-sm text-gray-600 font-light mt-1">The Ask.com search engine, mobile applications,
+                            and browser extensions have been permanently disabled and removed from all app stores.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div
+                        class="flex-shrink-0 h-6 w-6 rounded-full border border-gray-300 flex items-center justify-center mt-0.5">
+                        <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="text-gray-900 font-medium">Data Privacy & Deletion</h4>
+                        <p class="text-sm text-gray-600 font-light mt-1">In full compliance with GDPR and CCPA
+                            regulations, all identifiable user search histories, accounts, and saved data have been
+                            securely and permanently wiped from our active servers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Gratitude -->
+        <section class="mb-16 text-center fade-in delay-3">
+            <h2 class="text-3xl serif text-gray-900 mb-6 italic">"To the millions who asked..."</h2>
+            <p class="text-gray-700 leading-relaxed mb-6 font-light max-w-2xl mx-auto">
+                We are deeply grateful to the brilliant engineers, designers, and teams who built and supported Ask over
+                the decades. And to you—the millions of users who turned to us for answers in a rapidly changing
+                world—thank you for your endless curiosity, your enduring loyalty, and your trust.
+            </p>
+            <p class="text-lg font-medium text-gray-900 serif mt-8">
+                Jeeves’ spirit endures.
+            </p>
+        </section>
+
+        <!-- The CTA -->
+        <section class="mt-20 pt-10 border-t border-gray-200 text-center fade-in delay-3">
+            <p class="text-gray-500 text-sm mb-6 font-light">Have remaining questions regarding data privacy or this
+                transition?</p>
+            <a href="https://iac.com"
+                class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors duration-200 shadow-sm">
+                Visit the IAC Support Center
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="w-full text-center py-8 text-xs text-gray-400 font-light fade-in delay-3">
+        &copy; 2026 IAC Inc. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
