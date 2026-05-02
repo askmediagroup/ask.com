@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Farewell to Ask.com | 25 Years of Curiosity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc;
+            color: #1a1a1a;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in forwards;
+            opacity: 0;
+        }
+
+        .delay-1 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.9s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col bg-[#fcfcfc]">
+
+    <!-- Main Content -->
+    <main class="w-full max-w-3xl mx-auto px-6 pt-16 pb-8 flex-grow">
+
+        <!-- The Logo -->
+        <div class="fade-in mb-8">
+            <img src="site-logo.svg" alt="Ask Logo" class="w-24">
+        </div>
+
+        <!-- The Headline -->
+        <section class="mb-16 fade-in delay-1">
+            <h1 class="text-5xl md:text-6xl font-semibold leading-tight text-gray-900 mb-6">
+                Every great search <br />must come to an end.
+            </h1>
+            <p class="text-xl text-gray-600 font-light leading-relaxed">
+                As IAC continues to sharpen its focus, we have made the decision to discontinue our search business,
+                which includes Ask.com. After 25 years of answering the world's questions, Ask.com officially closed on
+                <strong class="font-medium text-gray-900">May 1, 2026</strong>.
+            </p>
+        </section>
+
+        <!-- The Gratitude -->
+        <section class="mb-12 text-center fade-in delay-3">
+            <h2 class="text-3xl serif text-gray-900 mb-6 italic">"To the millions who asked..."</h2>
+            <p class="text-gray-700 leading-relaxed mb-6 font-light max-w-2xl mx-auto">
+                We are deeply grateful to the brilliant engineers, designers, and teams who built and supported Ask over
+                the decades. And to you—the millions of users who turned to us for answers in a rapidly changing
+                world—thank you for your endless curiosity, your loyalty, and your trust.
+            </p>
+            <p class="text-lg font-medium text-gray-900 serif mt-8">
+                Jeeves’ spirit endures.
+            </p>
+        </section>
+
+        <footer class="w-full text-center text-xs text-gray-400 font-light fade-in delay-3">
+            &copy; 2026 IAC Inc. All rights reserved. | <a href="privacy.html"
+                class="hover:text-gray-600 transition-colors">Privacy Policy</a>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
